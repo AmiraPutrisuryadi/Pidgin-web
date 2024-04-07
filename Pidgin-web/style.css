@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: gfs-didot-regular;
+}
+
+.picture2 {
+  display: none;
+}
+.thumbnail:hover .picture1 {
+  display: none;
+}
+.thumbnail:hover .picture2 {
+  display: block;
+}
+
+#about {
+  background-color: white;
+  color: black;
+}
+
+.form-control {
+  background-color: #000;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+}
+
+.form-control:focus {
+  background-color: #000;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+}
+.btn {
+  border-radius: 0px;
+}
+
+.btn-outline-danger {
+  background-color: white;
+  border-width: 0px;
+  color: black;
+}
+
+.container-2 {
+  width: 476px;
+  overflow: hidden;
+  display: block;
+  height: 1096px;
+}
+
+#divine {
+  margin-left: -50px;
+  margin-right: -50px;
+}
